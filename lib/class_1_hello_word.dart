@@ -20,3 +20,5 @@ void main(){
 // "Hello world": This is a String (text). In Dart, Strings must be wrapped in either single quotes ' or double quotes ".
 
 // ; (The Semicolon): Think of this as a "period" at the end of a sentence. In Dart, every standalone instruction must end with a semicolon to tell the compiler the statement is finished.
+
+// on your terminal type *dart run* to run the program  
