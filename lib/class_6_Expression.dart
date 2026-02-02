@@ -11,10 +11,23 @@ void main (){
     print("b is greater than a");
   }
 
-  // NOW IN EXPRESSION WE USE THIS 
+  // conditional Expression
+
+  // 1.condition ? exp1 : exp2,
+  // condition statement ? code to be executed if is true : code to be executed if is false.
+  // if a condition is true, evaluate expr(and return its value);
+  // otherwise, evaluate and returns the value of exp2
 
   a>b ? print('a is greater than b') : print('b is greater than a');
 
-  // condition statement ? code to be executed if is true : code to be executed if is false.
+// 2. exp1 ?? exp2 
+// if exp1 is non-null, evaluate and return its value; otherwise, evaluate and return the value of exp2 
    
-}
+   String username = "wilson";
+   String name = username ?? "Guest";
+   print(name);
+
+  //  String username = null;
+  //  String name = username ?? "Guest";
+  //  print(name);
+} 
