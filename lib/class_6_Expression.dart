@@ -23,11 +23,11 @@ void main (){
 // 2. exp1 ?? exp2 
 // if exp1 is non-null, evaluate and return its value; otherwise, evaluate and return the value of exp2 
    
-   String username = "wilson";
+   String? username = null;
    String name = username ?? "Guest";
    print(name);
 
-  //  String username = null;
+  //  String username = "wilson";
   //  String name = username ?? "Guest";
   //  print(name);
 } 
