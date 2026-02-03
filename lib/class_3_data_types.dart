@@ -8,6 +8,8 @@ void main(){
   List<String> colors = ["Red", "Green", "Blue"]; // also known as array  
   Map<String, int> ages = {"John": 24, "Jane": 25}; // also known as object
 
+  print("1029857857748 ");
+
   print("Age: $age");
   print("Height: $height");
   print("Name: $name");
@@ -25,6 +27,7 @@ void main(){
 
 int token = 24;
 print(token);
+print(23);
 
 // int is the data type 
 
@@ -44,10 +47,10 @@ String name1 = "John";
 String name2 = 'John';  
 String name3 = '"John"';  
 String name4 = "'John'";
-String name5 = "John's book";    
+String name5 = "John's \n book";    
 // String name6 = 'John's book';     // this will give an error 
 String name6 = 'John\'s book';     // this will work  BECAUSE \ is an escape character  
-print('$name6,$name1,$name2,$name3,$name4,$name5');
+print('$name1,$name2,$name3,$name4,$name5,$name6');
 
 
 // string interpolation: String interpolation is a way to embed expressions inside string literals. For example, the value "Age: $age" is a string interpolation.  
@@ -67,7 +70,7 @@ print("Final price: ${price - discount}");
 // Output: Final price: 128.0
 
 String storeName = "Clot";
-print("The name $storeName has ${storeName.length} letters.");
+print("The name is $storeName,  has  ${storeName.length} letters.");
 // Output: The name Clot has 4 letters.
 
 // Expression Interpolation
