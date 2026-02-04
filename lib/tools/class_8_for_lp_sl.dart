@@ -1,4 +1,9 @@
+import 'dart:io';
+
 void main(){
+
+// TASK TO DO WITH FOR LOOP
+
   // 3. use for loop to print numbers from 1 to 10
   for(int i=1; i<=10; i++ ){
     print("number  $i");
@@ -58,4 +63,18 @@ void main(){
       print("Student ${i +1} filed");
     }
   }
+
+
+  // TASK TO  DO WITH WHILE LOOP
+
+  // create a downloading progress bar that will print the percentage of the download
+  int downloaded = 0;
+  int total = 100;
+  while (downloaded < total){
+    print("Downloading $downloaded% of $total%");
+    downloaded++;
+    sleep(const Duration(seconds: 1));
+  }
+  print("Download completed!");
+  
 }

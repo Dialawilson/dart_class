@@ -1,3 +1,4 @@
+import 'dart:io';
 void main(){
   // Iterator
 for(int i=1; i<5; i++){
@@ -22,19 +23,27 @@ for(int i=1; i<5; i++){
    
 // 6. loop through a list of fruits and list them out
 
-while(int w=1; w<=4; w++){
-  print(w);
-  w++;  
+// ==== WHILE LOOP ===
+var i=1;
+while(i<3)// where we add the condition
+{
+  print(i); // code to execute
+  i++; // increment or decrement
 }
-do{
-  print('hello');
-  int a++;
-}while(a<4);
-  }
+// ===== TASK TO DO WITH WHILE LOOP =====
+// 1. create a downloading progress bar that will print the percentage of the download
 
+String input = "no";
+while(input !="yes"){
+  print("please type yes");
+  input="yes";
+}
+print("thanks u");
 // loops can be defined in 2 different 
 // ways which is DEFINITE and INDEFINITE 
 
 // DEFINITE: when we know the number of times we want to loop. 
 
-// INDEFINITE: when we don't know the number of times we want to loop 
+// INDEFINITE: when we don't know the number of times we want to loop
+
+}
