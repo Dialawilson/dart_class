@@ -17,7 +17,7 @@ if (salary >20000){
 }
 
 
-const mark = 70;
+const int mark = 70;
 if (mark >= 90 && mark <= 100){
   print("Grade: A+");
 }else if (mark >= 80 && mark < 90){
@@ -35,3 +35,8 @@ if (mark >= 90 && mark <= 100){
 }
 
 }
+// ==== TASK TO DO====
+// A program that check if a number is even or odd 
+// Aprogram that check if a user is eligble to vote
+// A program that cheeck for the highest number if we have 4 sents of numbers
+// A login system that checks for username and password;
