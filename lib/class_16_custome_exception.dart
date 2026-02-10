@@ -5,6 +5,7 @@ if (amount < 0){
   // throw is used to throw an exception
   throw  MyException().errorMsg();
 }
+
 }
 
 // custom exception class
