@@ -18,4 +18,10 @@ void main(){
   print("loop terminated");
   // The continue statement skips the current iteration of the loop and moves to the next iteration.
   
+  // bool repeat= false;
+
+ while(false){
+  print("hello");
+  break;
+ }
 }

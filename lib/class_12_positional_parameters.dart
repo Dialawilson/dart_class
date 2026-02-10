@@ -6,7 +6,7 @@ void main(){
 
   cities("New York", "Los Angeles", "Chicago");
   // if you miss a particular parameter it will throw an error
-
+print("\n");
   places("New York",  );
 } 
 

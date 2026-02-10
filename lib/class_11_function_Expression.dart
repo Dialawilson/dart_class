@@ -10,3 +10,4 @@ void main(){
 
 void findArea(int length, int breadth) => print("the area of the rectangle is ${length * breadth}");
 // IF YOU ARE USING THE FAT ARROW NEVER USE THE RETURN KEYWORD
+// note: after the fat arrow you can only write a single line of code or expression 

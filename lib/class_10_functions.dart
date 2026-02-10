@@ -12,15 +12,18 @@ void main(){
 
 // a function without a return type
   findArea(10, 12);
+  getArea(10, 13);
+  getSum(19, 12);
   
 // a funtion with a return type
-  int sum = getSum(10, 12);
-  print(sum);
+//   int sum = getSum(10, 12);
+//   print(sum);
 
 }  
 
   int  findArea(int lenght, int breadth){
-  return lenght * breadth;
+  int area=lenght * breadth;
+  return area;
 }
    // a functoion that does not return anything
 
@@ -29,6 +32,7 @@ void main(){
    }
  int getSum(int lenght, int breadth){
   int add=lenght + breadth;
+  print(add);
   return add;
  }
 

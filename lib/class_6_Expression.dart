@@ -18,7 +18,7 @@ void main (){
   // if a condition is true, evaluate expr(and return its value);
   // otherwise, evaluate and returns the value of exp2
 
-  a>b ? print('a is greater than b') : print('b is greater than a');
+  a > b ? print('a is greater than b') : print('b is greater than a');
 
 // 2. exp1 ?? exp2 
 // if exp1 is non-null, evaluate and return its value; otherwise, evaluate and return the value of exp2 

@@ -34,14 +34,45 @@ do{
 // ======= TASK TO DO WITH FOR LOOP =====
 
 // 1. Give a list of student scores, print pass if score >= 50.
+// List <int> scores= [10,20,30,40,50,60,70,80,90,100];
+// for(int i=0; i<scores.length; i++){
+//   if(scores[i] >= 50){
+//     print("Pass");
+//   }
+// } 
 
 // 2. A system allows a user 3 attempts, if the password is wrong after 3 tries lock the account.
+String correctPassword = "1234";
+String inputPassword = "12341";
+bool isLoggedIn = false;
+for(int atempt=1; atempt<=3; atempt++){
+  if(inputPassword == correctPassword){
+    isLoggedIn = true;
+    print("logged in");
+    break;
+  }else{
+    print("wrong password Attempt $atempt of 3");
+  }
+}
+if(!isLoggedIn){
+  print("Account locked");
+}
  
 // 3. Use for loop to display numbers from 1-10
 
 // 4. Use for loop to bring out the even numbers from 1-20.
 
-//5. check for the number vowel sound in a string.
+//5. check for the number of vowels in a string.
+String word = "Hello";
+int count = 0;
+for(int i =0; i<word.length; i++){
+  if(RegExp(r"[aeiou]").hasMatch(word[i])){
+   
+    count++;
+  }
+}
+
+print(count);
    
 // 6. loop through a list of fruits and list them out
 
