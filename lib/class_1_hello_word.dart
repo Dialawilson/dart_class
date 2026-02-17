@@ -22,3 +22,6 @@ void main(){
 // ; (The Semicolon): Think of this as a "period" at the end of a sentence. In Dart, every standalone instruction must end with a semicolon to tell the compiler the statement is finished.
 
 // on your terminal type *dart run* to run the program  
+
+// A Map stores data as an unordered collection of key-value pairs, similar to dictionaries in other languages. Each key must be unique, serving as an identifier to access its associated value. 
+var

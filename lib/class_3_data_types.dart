@@ -5,6 +5,7 @@ void main(){
   double height = 5.9;
   String name = "John";
   bool isStudent = true;
+  Set<int> year = {1,2,2,,4,65};
   List<String> colors = ["Red", "Green", "Blue"]; // also known as array  
   Map<String, int> ages = {"John": 24, "Jane": 25}; // also known as object
 
@@ -16,6 +17,7 @@ void main(){
   print("Is Student: $isStudent");
   print("Colors: $colors");
   print("Ages: $ages");
+   print("Ages: $year");
 
 // Note: Dart is a statically typed language, which means you must declare the type of a variable when you declare it.
 
